@@ -72,7 +72,7 @@ public class Main {
                                 }
                                 break;
                             case 2:
-                                if(ListaEmpleados.isEmpty()){
+                                if(ListaEmpresas.isEmpty()){
                                     System.out.println("No Existen Empresas, No se puede realizar la modificación ");
                                     break;
                                 }
@@ -132,7 +132,7 @@ public class Main {
                                 }
                                 break;
                             case 3:
-                                if(ListaEmpleados.isEmpty()){
+                                if(ListaEmpresas.isEmpty()){
                                     System.out.println("No Existen Empresas, No se puede realizar la consulta ");
                                     break;
                                 }
@@ -206,7 +206,7 @@ public class Main {
                                 break;
                             case 2:
                                 if(ListaEmpresas.isEmpty()){
-                                    System.out.println("Deber Registrar una Empresa para poder Crear un empleado ");
+                                    System.out.println("Deber Registrar una Empresa para poder Modificar un empleado ");
                                     break;
                                 }
                                 if(ListaEmpleados.isEmpty()){
